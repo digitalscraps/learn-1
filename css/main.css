@@ -1,0 +1,42 @@
+body {
+  font-family: "Raleway", sans-serif;;
+}
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: grey;
+}
+#wrapper ul li {
+  list-style: none;
+
+}
+#logo {
+  text-align: left;
+  margin: 0 5%;
+}
+#logo img {
+  width:250px;
+  height:250px;
+}
+h1 {
+  font-family:"Work Sans", sans-serif;
+  padding: 0 5%;
+}
+a{
+  text-decoration: none;
+}
+header {
+
+}
+header span{
+  display:absolute;
+  padding: 0 10px 0 5px;
+  margin: 0;
+}
+nav ul li{
+}
+.headercontact ul{
+  padding:20px 0 0 0;
+
+}
