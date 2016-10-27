@@ -42,6 +42,22 @@ a {
 img {
   max-width: 100%;
 }
+h1{
+  font-family:'Work Sans', sans-serif;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+h2 {
+  font-size: 1em;
+  margin: 5px 0 0 5px;
+  font-weight:normal;
+}
+h3 {
+  margin: 0 0 1em 0;
+}
 /*******************
 HEADING
 *******************/
@@ -63,16 +79,6 @@ header span{
 }
 #logo img {
 }
-
-h1{
-  font-family:'Work Sans', sans-serif;
-  margin: 15px 0;
-  color: #fff;
-  font-size: 1.75em;
-  font-weight: normal;
-  line-height: 0.8em;
-}
-
 
 
 /*******************
@@ -126,11 +132,6 @@ footer a.selected, footer a:hover {
 /*******************
 GALLERY
 *******************/
-h2 {
-  font-size: 1em;
-  margin: 5px 0 0 5px;
-  font-weight:normal;
-}
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -155,4 +156,15 @@ h2 {
   font-size: 0.75em;
   color: #000;
   border: 1px black solid;
+}
+
+
+/*******************
+About
+*******************/
+.profile-photo {
+  display:block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
 }
