@@ -1,3 +1,7 @@
+/*******************
+HEADING
+*******************/
+
 @import url(https://fonts.googleapis.com/css?family=Raleway|Work+Sans);
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -12,7 +16,7 @@ hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-html. body {
+html body {
   height: 100%;
 }
 html {
@@ -31,6 +35,11 @@ html {
   font-style: normal;
   font-size: 15px;
   background: #66cca5;
+}
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 ol, ul {
   list-style: none;
@@ -62,39 +71,26 @@ h3 {
 HEADING
 *******************/
 header {
-background:#3f51b5;
-border-color:#03a9f4;
+float: left;
 margin: 0 0 30px 0;
 padding: 5px 0 0 0;
 width: 100%;
-}
-header span{
-  display:absolute;
-  padding: 0 10px 0 5px;
-  margin: 0;
+background:#3f51b5;
+border-color:#03a9f4;
 }
 #logo {
   text-align: left;
   margin: 0 5%;
 }
-#logo img {
-}
-
 
 /*******************
 NAVIGATION
 *******************/
 nav {
-  background:#03a9f4;
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
-}
-nav a, nav a:visited{
-  color:#fff;
-}
-nav a.selected, nav a:hover {
-  color: #32233f;
+  background:#03a9f4;
 }
 nav ul {
   list-style: none;
@@ -105,16 +101,21 @@ nav li {
   display: inline-block;
 }
 nav a {
+  font-weight: bold;
   padding: 15px 10px;
 }
-
-
+nav a, nav a:visited{
+  color:#fff;
+}
+nav a.selected, nav a:hover {
+  color: #32233f;
+}
 
 /*******************
 Footer
 *******************/
 footer {
-  font-size: 1em;
+  font-size: 0.75em;
   text-align: center;
   clear:both;
   padding-top: 50px;
@@ -132,18 +133,13 @@ footer a.selected, footer a:hover {
 /*******************
 GALLERY
 *******************/
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
 #gallery {
   margin: 0;
   padding: 0;
   list-style:none;
 }
 #gallery li {
-  float:left;
+  float: left;
   width: 45%;
   margin: 2.5%;
   background-color:pink;
@@ -166,5 +162,24 @@ About
   display:block;
   max-width: 150px;
   margin: 0 auto 30px;
-  border-radius: 20px;
+  border-radius: 100%;
+}
+
+
+/*******************
+Contact
+*******************/
+.contact-info {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  margin: 0 0 10px;
+}
+.contact-info i {
+  padding: 0 10px;
 }
