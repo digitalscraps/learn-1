@@ -37,7 +37,7 @@ html {
   background: #fff;
 }
 #wrapper {
-  max-width: 940px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 5%;
 }
@@ -81,6 +81,7 @@ border-color:#000;
 #logo {
   text-align: left;
   margin: 0 5%;
+  border-radius: 100%;
 }
 
 /*******************
@@ -144,10 +145,7 @@ GALLERY
 #gallery li {
   float: left;
   width: 45%;
-  margin: 2.5%;
-  background-color:lightblue;
-  color: #000;
-  border: 2px black solid;
+  margin: .5%;
 }
 #gallery li a figcaption {
   margin: 0;
@@ -155,6 +153,7 @@ GALLERY
   font-size: 0.75em;
   color: #000;
   border: 1px black solid;
+  background-color:lightblue;
 }
 
 /*******************
