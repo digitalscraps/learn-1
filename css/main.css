@@ -1,5 +1,5 @@
 /*******************
-HEADING
+General
 *******************/
 
 @import url(https://fonts.googleapis.com/css?family=Raleway|Work+Sans);
@@ -34,7 +34,7 @@ html {
   font-weight: normal;
   font-style: normal;
   font-size: 15px;
-  background: #66cca5;
+  background: #fff;
 }
 #wrapper {
   max-width: 940px;
@@ -54,7 +54,7 @@ img {
 h1{
   font-family:'Work Sans', sans-serif;
   margin: 15px 0;
-  color: #fff;
+  color: #000;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
@@ -75,8 +75,8 @@ float: left;
 margin: 0 0 30px 0;
 padding: 5px 0 0 0;
 width: 100%;
-background:#3f51b5;
-border-color:#03a9f4;
+background:#gray;
+border-color:#000;
 }
 #logo {
   text-align: left;
@@ -90,7 +90,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
-  background:#03a9f4;
+  background:#lightblue;
 }
 nav ul {
   list-style: none;
@@ -105,10 +105,13 @@ nav a {
   padding: 15px 10px;
 }
 nav a, nav a:visited{
-  color:#fff;
+  color:#000;
 }
 nav a.selected, nav a:hover {
-  color: #32233f;
+  color: lightblue;
+}
+nav a:link {
+  border-top: .15em dashed black;
 }
 
 /*******************
@@ -128,7 +131,7 @@ footer a {
   display: inline-block;
 }
 footer a.selected, footer a:hover {
-  color: #32233f;
+  color: lightblue;
 }
 /*******************
 GALLERY
@@ -142,8 +145,8 @@ GALLERY
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color:pink;
-  color: #bdc3c7;
+  background-color:lightblue;
+  color: #000;
   border: 2px black solid;
 }
 #gallery li a figcaption {
@@ -154,7 +157,13 @@ GALLERY
   border: 1px black solid;
 }
 
-
+/*******************
+  Editions
+*******************/
+.poem-text:hover {
+  color: green;
+  font-size: 3em;
+}
 /*******************
 About
 *******************/

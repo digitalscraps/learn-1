@@ -102,6 +102,7 @@ body {
 
 a:focus {
     outline: thin dotted;
+    background-color: blue;
 }
 
 /**
