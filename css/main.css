@@ -69,7 +69,17 @@
     position: relative;
     background: #fff;
     }
-
+  .site-header {
+    max-width: 90%;
+    margin: 30px auto;
+  }
+  .site-header__inner {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 75px;
+    vertical-align: text-top;
+  }
   nav {
     margin:0;
     display: inline-flex;
@@ -127,13 +137,13 @@
   Page Elements
   *******************/
   .brand {
-    display: inline-block;
     position: relative;
     z-index: 1;
-    width: auto;
-
+    margin-right: auto;
   }
-
+  .brand-logo {
+    height: 100%;
+  }
 
   /* Gallery */
 
