@@ -34,3 +34,9 @@
   img {
     max-width: 100%;
   }
+
+  main {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+  }

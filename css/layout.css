@@ -1,14 +1,9 @@
 .grid-container {
     display:grid;
     grid-template-columns: [col] 3fr [col] 3fr [col] 3fr ;
-    grid-template-rows: [row] auto [row] auto [row] ;
-    grid-template-areas: "feature-content feature-content feature-content"
-                         "two-third-area two-third-area single";
+    grid-template-rows: [row] auto [row] auto [row] auto [row] auto;
     grid-gap: 10px;
     background-color: #fff;
-    color: 444;
-    margin: 2em;
-    max-width: 940px;
 }
 .box-light {
     background-color: #cccccc;
@@ -16,20 +11,24 @@
 .box-med {
     background-color: #b2b2b2;
 }
-.box-ligth {
+.box-dark {
     background-color: #989898;
 }
 
 .feature-content {
-    grid-area: feature-content;
     grid-column: col / span 3;
     grid-row: row;
 }
-.two-third-area {
-    grid-column: col / span 2;
-    grid-row: 2;
+.flex-twothirds {
+    flex: 2 auto;
 }
-.single {
-    grid-column: col 3 / span 1;
-    grid-row: 2;
+.flex-square {
+    flex: 1 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
 }
