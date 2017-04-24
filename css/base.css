@@ -1,6 +1,7 @@
   body {
     background-color: #fff;
     font-family: 'Maven Pro', Arial, sans-serif;
+    padding: 0.625rem;
   }
   h1 {
     font-family: 'Maven Pro', Arial, sans-serif;
@@ -38,5 +39,12 @@
   main {
     max-width: 940px;
     margin: 0 auto;
-    padding: 2em;
   }
+
+  header {
+    margin-bottom: 1.5rem;
+  }
+
+section {
+  margin-bottom: 1.25rem;
+}
