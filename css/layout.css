@@ -1,24 +1,46 @@
-.grid-container {
+/* Flex-Box Navbar (NB) 
+with brand on left and links on right */
+.l-nb-f {
+    display: flex;
+    flex-wrap: wrap;
+}
+.l-nb-item {
+    flex: 1 0 auto;
+}
+.l-nb-start {
+    align-self: stretch;
+}
+.l-nb-link-container {
+    margin-left: auto;
+    align-self: flex-end;
+    display: flex;
+}
+.l-nb-link-container a {
+    flex: 2 0 auto;
+    padding: 0 1.125rem; /* 18px */
+}
+
+
+
+/* Feature Content (FC) Grid */
+.-l-fc-gc {
     display:grid;
     grid-template-columns: [col] 3fr [col] 3fr [col] 3fr ;
     grid-template-rows: [row] auto [row] auto [row] auto [row] auto;
     grid-gap: 10px;
     background-color: #fff;
 }
-.box-light {
-    background-color: #cccccc;
-}
-.box-med {
-    background-color: #b2b2b2;
-}
-.box-dark {
-    background-color: #989898;
-}
 
-.feature-content {
+.-l-fc-item {
     grid-column: col / span 3;
     grid-row: row;
 }
+
+
+
+
+
+
 .flex-twothirds {
     flex: 2 auto;
 }
@@ -31,4 +53,14 @@
 .flex-container {
     display:flex;
     flex-wrap: wrap;
+}
+
+.box-light {
+    background-color: #cccccc;
+}
+.box-med {
+    background-color: #b2b2b2;
+}
+.box-dark {
+    background-color: #989898;
 }
