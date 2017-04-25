@@ -17,24 +17,28 @@ with brand on left and links on right */
 }
 .l-nb-link-container a {
     flex: 2 0 auto;
-    padding: 0 1.125rem; /* 18px */
+    padding:  1.25rem 1.125rem 0.625rem 1.125rem ; /* 18px */
 }
 
 
 
-/* Feature Content (FC) Grid */
-.-l-fc-gc {
-    display:grid;
-    grid-template-columns: [col] 3fr [col] 3fr [col] 3fr ;
-    grid-template-rows: [row] auto [row] auto [row] auto [row] auto;
-    grid-gap: 10px;
-    background-color: #fff;
+/* Feature Content (FC) Grid and Flexbox with Background Image */
+.l-fc {
+    min-height: 424px;
+    padding: 1.875rem 3.75rem 3.75rem 3.75rem;
+}
+.l-fc-f {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.l-fc-background {
+    background-image: url(http://placehold.it/640x425);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.-l-fc-item {
-    grid-column: col / span 3;
-    grid-row: row;
-}
 
 
 
