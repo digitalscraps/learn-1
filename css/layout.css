@@ -1,3 +1,19 @@
+/* Basic Flexbox & Grid Elements  */
+.flex-twothirds {
+    flex: 2 auto;
+}
+.flex-square {
+    flex: 1 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
 /* Flex-Box Navbar (NB) 
 with brand on left and links on right */
 .l-nb-f {
@@ -21,7 +37,6 @@ with brand on left and links on right */
 }
 
 
-
 /* Feature Content (FC) Grid and Flexbox with Background Image */
 .l-fc {
     min-height: 424px;
@@ -40,25 +55,7 @@ with brand on left and links on right */
 }
 
 
-
-
-
-
-
-.flex-twothirds {
-    flex: 2 auto;
-}
-.flex-square {
-    flex: 1 auto;
-    display:flex;
-    justify-content: center;
-}
-
-.flex-container {
-    display:flex;
-    flex-wrap: wrap;
-}
-
+/* Imgage Mockup */
 .box-light {
     background-color: #cccccc;
 }
