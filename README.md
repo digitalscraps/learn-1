@@ -1,7 +1,9 @@
-# wei
+#wei
 
-##Boilerplate html5 & CSS3 template
+##Html5 & CSS3 template that can translate into Wordpress or Angular template.
 
-####Named after the star in the constalltion Scorpius. This star was almost directly overhead when I wrote the first html and css pages. 
+####Ideally used for retail services or small shops
 
-2016 Norman, Oklahoma
+
+
+2017 Allison Campbell
